@@ -153,6 +153,20 @@ vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/audio.usb.mt6785.so
 vendor/lib64/hw/audio_policy.stub.so
 
+# Audio (Alexa) - from Redmi/begoniain/begoniain:10/QP1A.190711.020/V11.0.2.0.QGGINXM:user/release-keys
+vendor/etc/device_features/begoniain.xml|b76de24b65e4a91e3700f61555dac8eafcb24f7a
+vendor/etc/voicecommand/training/ubmfile/p2.5/n2|b1963ecdc53037fbd5de59037386cd8a7148f1e2
+vendor/lib/libvowp23_sid_testing_alexa.vendor.so|4e867b5098f0b6add4f8b4257c5e15835069203b
+vendor/lib/libvowp23_sid_training_alexa.vendor.so|2feade287fb9797bc6d6ab7ce08f7f8944b6e19d
+vendor/lib/libvowp25testing_alexa.vendor.so|d1b9e7cf278661605208e84001597a330d64553b
+vendor/lib/libvowp2training_alexa.vendor.so|cb92fa8ed0ed4ea9f8f52751ca3ac040604aa754
+vendor/lib/libvow_ap_testing_alexa.vendor.so|bc044602c8087151f08057bfb68bf8b2a6b8e7d5
+vendor/lib64/libvowp23_sid_testing_alexa.vendor.so|975ec31577b5cb6c63219bb80775c2a3e0a0dc2b
+vendor/lib64/libvowp23_sid_training_alexa.vendor.so|ecf546e465417a7a8402d3463d0104465b70967a
+vendor/lib64/libvowp25testing_alexa.vendor.so|87b495533e33a994e7b06f960f5397154b54e314
+vendor/lib64/libvowp2training_alexa.vendor.so|1d860ceaafca03d152d28d4c19872c1680265290
+vendor/lib64/libvow_ap_testing_alexa.vendor.so|c671c3cac2c8f619b603f456b1b782fa7ede573a
+
 # aptX (From begonia-user 10 QP1A.190711.020 20.6.4 release-keys)
 lib64/libaptX_encoder.so|01379a17d29c1bbc7f6b0325709940ca8cdd7ab8
 lib64/libaptXHD_encoder.so|fdbca5626fee8607d90bea2a6903eeebf396a7cf
@@ -345,26 +359,6 @@ vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_720P_EIS.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_EIS_Default.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_Zoom1.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_Video_Zoom2.so
-vendor/lib/libCamera_s5kgw1spmipiraw_AutoHDR_Capture.so
-vendor/lib/libCamera_s5kgw1spmipiraw_AutoHDR_Preview.so
-vendor/lib/libCamera_s5kgw1spmipiraw_AutoHDR_Video.so
-vendor/lib/libCamera_s5kgw1spmipiraw_Face_Capture.so
-vendor/lib/libCamera_s5kgw1spmipiraw_Flash_Capture.so
-vendor/lib/libCamera_s5kgw1spmipiraw_Flash_HDR_Capture.so
-vendor/lib/libCamera_s5kgw1spmipiraw_HDR_Capture.so
-vendor/lib/libCamera_s5kgw1spmipiraw_HDR_Preview.so
-vendor/lib/libCamera_s5kgw1spmipiraw_HDR_Video.so
-vendor/lib/libCamera_s5kgw1spmipiraw_N3D_Capture.so
-vendor/lib/libCamera_s5kgw1spmipiraw_N3D_Preview.so
-vendor/lib/libCamera_s5kgw1spmipiraw_N3D_Video.so
-vendor/lib/libCamera_s5kgw1spmipiraw_Reserved.so
-vendor/lib/libCamera_s5kgw1spmipiraw_Scene_Capture.so
-vendor/lib/libCamera_s5kgw1spmipiraw_Scene_Capture_4cell.so
-vendor/lib/libCamera_s5kgw1spmipiraw_Scene_Preview.so
-vendor/lib/libCamera_s5kgw1spmipiraw_Scene_Preview_4k.so
-vendor/lib/libCamera_s5kgw1spmipiraw_Scene_Preview_ZSD_Flash.so
-vendor/lib/libCamera_s5kgw1spmipiraw_Video_1080.so
-vendor/lib/libCamera_s5kgw1spmipiraw_Video_4k.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Face_Capture.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Face_Capture_64.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Face_Preview.so
@@ -594,26 +588,6 @@ vendor/lib64/libCamera_s5kgw1ofilmmipiraw_Video_720P_EIS.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_Video_EIS_Default.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_Video_Zoom1.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_Video_Zoom2.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_AutoHDR_Capture.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_AutoHDR_Preview.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_AutoHDR_Video.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_Face_Capture.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_Flash_Capture.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_Flash_HDR_Capture.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_HDR_Capture.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_HDR_Preview.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_HDR_Video.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_N3D_Capture.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_N3D_Preview.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_N3D_Video.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_Reserved.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_Scene_Capture.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_Scene_Capture_4cell.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_Scene_Preview.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_Scene_Preview_4k.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_Scene_Preview_ZSD_Flash.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_Video_1080.so
-vendor/lib64/libCamera_s5kgw1spmipiraw_Video_4k.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Face_Capture.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Face_Capture_64.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Face_Preview.so
@@ -670,6 +644,53 @@ vendor/lib64/libSonyIMX519PdafLibraryWrapper.so
 vendor/lib64/libVDSuperPhotoAPI.so
 vendor/lib64/libvidhance.so
 
+# Camera - from Redmi/begoniain/begoniain:10/QP1A.190711.020/V11.0.2.0.QGGINXM:user/release-keys
+vendor/bin/libccu_s5kgw1sp_mipi_raw.ddr|d0a6571da020238749713cfbc43628b2dd88040c
+vendor/lib/libCamera_s5kgw1spmipiraw_AutoHDR_Capture.so|7ea4abd70215cb73dcbdd8e504660862bc074306
+vendor/lib/libCamera_s5kgw1spmipiraw_AutoHDR_Preview.so|785faf573940ef0a57a30c608c69c7708aa0f432
+vendor/lib/libCamera_s5kgw1spmipiraw_AutoHDR_Video.so|d4892fcfa34dc91652550e9552cad333f5a596da
+vendor/lib/libCamera_s5kgw1spmipiraw_Face_Capture.so|1dee12248ae179565c306d5528f768979d485ffd
+vendor/lib/libCamera_s5kgw1spmipiraw_Flash_Capture.so|ef2fdb71a9e9c257fd03bc1a6aa7ac5b4ae4fef4
+vendor/lib/libCamera_s5kgw1spmipiraw_Flash_HDR_Capture.so|39c715de2ef0629e614b766c372469317b6a4aa5
+vendor/lib/libCamera_s5kgw1spmipiraw_HDR_Capture.so|752ea3dfe456e8695a2615da659c01526f18dac0
+vendor/lib/libCamera_s5kgw1spmipiraw_HDR_Preview.so|b580ed7ab9568dd6f11208878c09aa7d9a39aa3d
+vendor/lib/libCamera_s5kgw1spmipiraw_HDR_Video.so|8e6d796755ddec2a1c0c14f1af833f9521483efa
+vendor/lib/libCamera_s5kgw1spmipiraw_N3D_Capture.so|6472b4c7a0a202ba72a8b3e6b86d74ad2944803c
+vendor/lib/libCamera_s5kgw1spmipiraw_N3D_Preview.so|4a1609ff48d7c0b189e5b66eb47d1e8bfa89a707
+vendor/lib/libCamera_s5kgw1spmipiraw_N3D_Video.so|5c4cc939cf9652894651dae032efa254c56fb115
+vendor/lib/libCamera_s5kgw1spmipiraw_Reserved.so|86db0ee4dfbc711ad9b118197a6f25d930fd3291
+vendor/lib/libCamera_s5kgw1spmipiraw_Scene_Capture.so|c4975f19aaf3346d0428c553a93041e159043a66
+vendor/lib/libCamera_s5kgw1spmipiraw_Scene_Capture_4cell.so|8286f96773ca5c93db401ac68d5810dc29b9bedf
+vendor/lib/libCamera_s5kgw1spmipiraw_Scene_Preview.so|bb84b7edb32fb679998c0184a118c17b50cad29b
+vendor/lib/libCamera_s5kgw1spmipiraw_Scene_Preview_4k.so|da829a271b6f65afcc840bc358e465e4ad011299
+vendor/lib/libCamera_s5kgw1spmipiraw_Scene_Preview_ZSD_Flash.so|c087510e4d1a2d6516be73084889b19d467f3853
+vendor/lib/libCamera_s5kgw1spmipiraw_Video_1080.so|368a30ad59b026e6829686c25d45e48b42315e1b
+vendor/lib/libCamera_s5kgw1spmipiraw_Video_4k.so|f5d5d2bebaafb684d52c6ef8fbf7fd6cf152e598
+vendor/lib/s5kgw1sp_mipi_raw_IdxMgr.so|188a0df00f771e8f4c22d73baa0c5c275cdf7625
+vendor/lib/s5kgw1sp_mipi_raw_tuning.so|cbf116fd6b772df54c40939acaa02207641a95cf
+vendor/lib64/libCamera_s5kgw1spmipiraw_AutoHDR_Capture.so|fd412ca56e3a863667d549e717519646aa481a5e
+vendor/lib64/libCamera_s5kgw1spmipiraw_AutoHDR_Preview.so|947015d09f83e49b0c4a8bb071eef42bcb1bfea3
+vendor/lib64/libCamera_s5kgw1spmipiraw_AutoHDR_Video.so|2d66334d908f0bc32372d84b5a2d2ffa546dff28
+vendor/lib64/libCamera_s5kgw1spmipiraw_Face_Capture.so|7fb11f4e4c222d5391deb0c3fc82e763d5b475f1
+vendor/lib64/libCamera_s5kgw1spmipiraw_Flash_Capture.so|bacdfcf35a4cee12b1e7018b9132bb284f958471
+vendor/lib64/libCamera_s5kgw1spmipiraw_Flash_HDR_Capture.so|a43ba22db06dad12f9649dc6f4d77fc3add3dba6
+vendor/lib64/libCamera_s5kgw1spmipiraw_HDR_Capture.so|67b659038bd2a270237cda5241e6a17f2023e74d
+vendor/lib64/libCamera_s5kgw1spmipiraw_HDR_Preview.so|f26c925d7832497ed48bf158c5f94a392d156ea9
+vendor/lib64/libCamera_s5kgw1spmipiraw_HDR_Video.so|519d976bfe27616c8f5c2a44170042f9b5f33573
+vendor/lib64/libCamera_s5kgw1spmipiraw_N3D_Capture.so|31c7a9852b3c93c353482f89997ae357942b5fcd
+vendor/lib64/libCamera_s5kgw1spmipiraw_N3D_Preview.so|7d819faf17278bb0f2a06325ab137fa00ae52fe8
+vendor/lib64/libCamera_s5kgw1spmipiraw_N3D_Video.so|41776fcae45a1f956dcb2ce4d19d8aff28568a5c
+vendor/lib64/libCamera_s5kgw1spmipiraw_Reserved.so|896598a7ff6b7804fa5384a06eaf02dd9c510194
+vendor/lib64/libCamera_s5kgw1spmipiraw_Scene_Capture.so|8ff7f67d095908e96397eca736c7f0cdc2565021
+vendor/lib64/libCamera_s5kgw1spmipiraw_Scene_Capture_4cell.so|9e1b6c9d22ed254e6e0f8c2998aea2fef3e3923f
+vendor/lib64/libCamera_s5kgw1spmipiraw_Scene_Preview.so|48dbc40d1478afde10454c654cdfa73b0c343933
+vendor/lib64/libCamera_s5kgw1spmipiraw_Scene_Preview_4k.so|3a8b987f245cd64dadc6a26fca5bf0a492f3cae0
+vendor/lib64/libCamera_s5kgw1spmipiraw_Scene_Preview_ZSD_Flash.so|3a2b1c7a745e67ae2fde36413dd9ab06e3dabe05
+vendor/lib64/libCamera_s5kgw1spmipiraw_Video_1080.so|34bd55f9efd4a389044786c407688e98c2eeab85
+vendor/lib64/libCamera_s5kgw1spmipiraw_Video_4k.so|347be799c317bce871508eecb5c0fee35349cccd
+vendor/lib64/s5kgw1sp_mipi_raw_IdxMgr.so|6a6653d73650ccdd1669bf19f500d61ba4e3abcb
+vendor/lib64/s5kgw1sp_mipi_raw_tuning.so|be84897b61977b8afb714d9ecb3c9b3270708c27
+
 # Camera-arcsoft
 vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib64/libarcsoft_beautyshot.so
@@ -696,9 +717,9 @@ vendor/etc/camera/visidon_clearshot_params_algoup.xml
 vendor/lib/hw/consumerir.mt6785.so
 vendor/lib64/hw/consumerir.mt6785.so
 
-# DRM
-vendor/lib/liboemcrypto.so
-vendor/lib64/liboemcrypto.so
+# DRM - from Redmi/begoniain/begoniain:10/QP1A.190711.020/V11.0.2.0.QGGINXM:user/release-keys
+vendor/lib/liboemcrypto.so|a7dbd88f7502173358ac2a752d6187a94260dbd4
+vendor/lib64/liboemcrypto.so|38bb081a617e9b7c8b79e1358de1c18fc6d113f7
 
 # DRM-ClearKey
 vendor/bin/hw/android.hardware.drm@1.2-service.clearkey
@@ -715,6 +736,11 @@ vendor/lib64/libwvhidl.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 vendor/lib64/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib64/mediadrm/libwvdrmengine.so
+
+# DRM-Widevine - from Redmi/begoniain/begoniain:10/QP1A.190711.020/V11.0.2.0.QGGINXM:user/release-keys
+vendor/lib/libwvkeybox.so|02f9f156ca05941f842c948775247b81bff32186
+vendor/lib64/libwvkeybox.so|f1a457272a1a95e795fc99f56e7fb1d50365c3a8
+vendor/lib64/libwvkeyboxext.so|4ff305b4244581eb1af1c9b9827269f7ce7a0bf2
 
 # Display-Hardware
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so
@@ -811,9 +837,9 @@ vendor/lib64/egl/libGLES_meow.so
 vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/libOpenCL.so
 
-# HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk
--product/priv-app/HotwordEnrollmentXGoogleCORTEXM4/HotwordEnrollmentXGoogleCORTEXM4.apk
+# HotwordEnrollment - from Redmi/begoniain/begoniain:10/QP1A.190711.020/V11.0.2.0.QGGINXM:user/release-keys
+-product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk|e8dea40dcc9518ca65175bd2226754a0394b7131
+-product/priv-app/HotwordEnrollmentXGoogleCORTEXM4/HotwordEnrollmentXGoogleCORTEXM4.apk|1041ace85c7bf825c58ba0e8c2c03996e2efc246
 
 # Kernel-Modules
 vendor/lib/modules/bt_drv.ko:vendor/lib/modules_prebuilt/bt_drv.ko|15ba0859c16f0d7288a70acc3542dc088f6982a2
@@ -1133,7 +1159,6 @@ lib/libsource.so
 lib/libvcodec_cap.so
 lib/libvcodec_capenc.so
 lib/libvt_avsync.so
-lib64/libmtk_serialnum.so
 lib64/libmtk_vt_wrapper.so
 lib64/libmtkaudio_utils.so
 lib64/libmtkavenhancements.so
@@ -1142,6 +1167,9 @@ lib64/libmtkperf_client.so
 lib64/libmtkshifter.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
+
+# MTK-IMS - from Redmi/begoniain/begoniain:10/QP1A.190711.020/V11.0.2.0.QGGINXM:user/release-keys
+lib64/libmtk_serialnum.so|982388292e6b9c055e752b538b9f1df6949f7729
 
 # NFC
 vendor/bin/hw/vendor.nxp.hardware.nfc@1.1-service|86ceb76df5de43e06efc6d767ea80ee19e72279d
@@ -1259,11 +1287,15 @@ vendor/lib64/libsensor_custom.so
 vendor/lib64/libssccalapi.so
 
 # Soter
--vendor/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service
 vendor/bin/SoterProvisioningTool
 vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
 vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
+
+# Soter - from Redmi/begoniain/begoniain:10/QP1A.190711.020/V11.0.2.0.QGGINXM:user/release-keys
+-vendor/app/SoterService/SoterService.apk|e7e054861c438c71aa8dea9b524f9718a10cd4ac
+vendor/lib/libmlipay@1.1.so|7bf73b462a3b1fe126eacbf7aa6a1b460c08656a
+vendor/lib/vendor.xiaomi.hardware.mlipay@1.1.so|134348e0895709e5810df38a69cbe96cc882054e
 
 # Thermal
 vendor/bin/hw/android.hardware.thermal@1.0-service
@@ -1361,7 +1393,6 @@ vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
-vendor/lib/libmlipay@1.1.so
 vendor/lib/libtida@1.1.so
 vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
 vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so
@@ -1372,7 +1403,6 @@ vendor/lib/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@3.0.so
 vendor/lib/vendor.xiaomi.hardware.mlipay@1.0.so
-vendor/lib/vendor.xiaomi.hardware.mlipay@1.1.so
 vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so
 vendor/lib/vendor.xiaomi.hardware.tidaservice@1.0.so
 vendor/lib/vendor.xiaomi.hardware.tidaservice@1.1.so
@@ -1472,7 +1502,6 @@ vendor/bin/libccu_ov8856sunny_mipi_raw.ddr
 vendor/bin/libccu_s5k3t1ofilm_mipi_raw.ddr
 vendor/bin/libccu_s5k3t1sunny_mipi_raw.ddr
 vendor/bin/libccu_s5kgw1ofilm_mipi_raw.ddr
-vendor/bin/libccu_s5kgw1sp_mipi_raw.ddr
 vendor/bin/libccu_s5kgw1sunny_mipi_raw.ddr
 vendor/bin/md_monitor
 vendor/bin/md_monitor_ctrl
@@ -1510,7 +1539,6 @@ vendor/etc/aurisys_param/FV-SAM-MTKXX.dat
 vendor/etc/aurisys_param/Speech_AudioParam.xml
 vendor/etc/csot_fhd_nt36672a_dsi_vdo_lcm_drv_mi.xml
 vendor/etc/default_pd_calibration.bin
-vendor/etc/device_features/begoniain.xml
 vendor/etc/DSM.xml
 vendor/etc/DSM_config.xml
 vendor/etc/ebbg_fhd_ft8719_dsi_vdo_lcm_drv_mi.xml
@@ -1921,7 +1949,6 @@ vendor/etc/voicecommand/training/ubmfile/p2.3/ubmModel3.bin
 vendor/etc/voicecommand/training/ubmfile/p2.3/ubmModel4.bin
 vendor/etc/voicecommand/training/ubmfile/p2.5/n0
 vendor/etc/voicecommand/training/ubmfile/p2.5/n1
-vendor/etc/voicecommand/training/ubmfile/p2.5/n2
 vendor/etc/voicecommand/training/ubmfile/p2.5/nl
 vendor/etc/voicecommand/training/ubmfile/p2.5/p0
 vendor/etc/voicecommand/training/ubmfile/p2.5/p1
@@ -2108,11 +2135,6 @@ vendor/lib/libviagpsrpc.so
 vendor/lib/libvolte_core_shr.so
 vendor/lib/libvolte_xdmc_shr.so
 vendor/lib/libvorbisidec.so
-vendor/lib/libvowp23_sid_testing_alexa.vendor.so
-vendor/lib/libvowp23_sid_training_alexa.vendor.so
-vendor/lib/libvowp25testing_alexa.vendor.so
-vendor/lib/libvowp2training_alexa.vendor.so
-vendor/lib/libvow_ap_testing_alexa.vendor.so
 vendor/lib/libvp8dec_sa.ca7.so
 vendor/lib/libvp8enc_sa.ca7.so
 vendor/lib/libvp9dec_sa.ca7.so
@@ -2122,7 +2144,6 @@ vendor/lib/libvpx.so
 vendor/lib/libvt_custom.so
 vendor/lib/libwapi.so
 vendor/lib/libwo.so
-vendor/lib/libwvkeybox.so
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
 vendor/lib/ov02a10af_mipi_raw_IdxMgr.so
@@ -2141,8 +2162,6 @@ vendor/lib/s5k3t1sunny_mipi_raw_IdxMgr.so
 vendor/lib/s5k3t1sunny_mipi_raw_tuning.so
 vendor/lib/s5kgw1ofilm_mipi_raw_IdxMgr.so
 vendor/lib/s5kgw1ofilm_mipi_raw_tuning.so
-vendor/lib/s5kgw1sp_mipi_raw_IdxMgr.so
-vendor/lib/s5kgw1sp_mipi_raw_tuning.so
 vendor/lib/s5kgw1sunny_mipi_raw_IdxMgr.so
 vendor/lib/s5kgw1sunny_mipi_raw_tuning.so
 vendor/lib/vendor.microtrust.hardware.capi@2.0.so
@@ -2307,19 +2326,12 @@ vendor/lib64/liburee_meta_drmkeyinstall.so
 vendor/lib64/libvcodec_oal.so
 vendor/lib64/libverno.so
 vendor/lib64/libvia-ril.so
-vendor/lib64/libvowp23_sid_testing_alexa.vendor.so
-vendor/lib64/libvowp23_sid_training_alexa.vendor.so
-vendor/lib64/libvowp25testing_alexa.vendor.so
-vendor/lib64/libvowp2training_alexa.vendor.so
-vendor/lib64/libvow_ap_testing_alexa.vendor.so
 vendor/lib64/libvpu.so
 vendor/lib64/libvsim.so
 vendor/lib64/libwapi.so
 vendor/lib64/libwifitest.so
 vendor/lib64/libwo.so
 vendor/lib64/libwpfa.so
-vendor/lib64/libwvkeybox.so
-vendor/lib64/libwvkeyboxext.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
 vendor/lib64/ov02a10af_mipi_raw_IdxMgr.so
@@ -2338,8 +2350,6 @@ vendor/lib64/s5k3t1sunny_mipi_raw_IdxMgr.so
 vendor/lib64/s5k3t1sunny_mipi_raw_tuning.so
 vendor/lib64/s5kgw1ofilm_mipi_raw_IdxMgr.so
 vendor/lib64/s5kgw1ofilm_mipi_raw_tuning.so
-vendor/lib64/s5kgw1sp_mipi_raw_IdxMgr.so
-vendor/lib64/s5kgw1sp_mipi_raw_tuning.so
 vendor/lib64/s5kgw1sunny_mipi_raw_IdxMgr.so
 vendor/lib64/s5kgw1sunny_mipi_raw_tuning.so
 vendor/lib64/vendor.microtrust.hardware.capi@2.0.so
