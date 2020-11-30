@@ -1,3 +1,6 @@
+## Proprietary files
+## From Redmi/begonia/begonia:10/QP1A.190711.020/V12.0.5.0.QGGMIXM:user/release-keys unless pinned
+
 # Audio
 vendor/etc/audio_param/AudioParamOptions.xml
 vendor/etc/audio_param/BtInfo_AudioParam.xml

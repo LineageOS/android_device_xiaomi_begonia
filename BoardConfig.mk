@@ -137,7 +137,7 @@ TARGET_RECOVERY_UI_BLANK_UNBLANK_ON_INIT := true
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2020-02-01
+VENDOR_SECURITY_PATCH := 2020-10-05
 
 # Sepolicy
 include device/mediatek/sepolicy/sepolicy.mk
