@@ -874,6 +874,16 @@ vendor/lib64/hw/keystore.mt6785.so
 vendor/lib64/libkeystore-engine-wifi-hidl.so
 vendor/lib64/libkeystore-wifi-hidl.so
 
+# Keyinstall - from Redmi/begoniain/begoniain:10/QP1A.190711.020/V11.0.2.0.QGGINXM:user/release-keys
+vendor/bin/hw/vendor.mediatek.hardware.keyinstall@1.0-service|5fb42b74b16d3f2de73f0bc60988a63d8ced3c47
+vendor/etc/init/vendor.mediatek.hardware.keyinstall@1.0-service.rc|185a1121dd6cdee7c5f4f737163a2b76bbcf4896
+vendor/lib/liburee_meta_drmkeyinstall.so|972aa313acd992382741766a7f71795ea7798526
+vendor/lib/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so|f8793837dd3714bf784a08476758d575580fc8e2
+vendor/lib/vendor.mediatek.hardware.keyinstall@1.0.so|a7593cf1cd2cfce73858350d0cac06099786f731
+vendor/lib64/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so|09cb12181b435b4ecdd5ea8ea895ffba16b7e6c4
+vendor/lib64/liburee_meta_drmkeyinstall.so|19af09b9a5d1ab7a27e1a2e8ad1b5a06d3d4cb75
+vendor/lib64/vendor.mediatek.hardware.keyinstall@1.0.so|0533a7c85c4b908c4419d9e43da7cbaef453e63b
+
 # Listen
 vendor/lib/hw/sound_trigger.primary.mt6785.so
 vendor/lib64/hw/sound_trigger.primary.mt6785.so
@@ -890,7 +900,6 @@ vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
-vendor/bin/hw/vendor.mediatek.hardware.keyinstall@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.log@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.3-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
@@ -903,7 +912,6 @@ vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.dplanner@2.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc
-vendor/etc/init/vendor.mediatek.hardware.keyinstall@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.log@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mms@1.3-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc
@@ -917,7 +925,6 @@ vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.3-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
@@ -972,7 +979,6 @@ vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib/vendor.mediatek.hardware.dfps@1.0.so
 vendor/lib/vendor.mediatek.hardware.gpu@1.0.so
-vendor/lib/vendor.mediatek.hardware.keyinstall@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib/vendor.mediatek.hardware.mms@1.2.so
@@ -995,7 +1001,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.3-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
@@ -1094,7 +1099,6 @@ vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so
 vendor/lib64/vendor.mediatek.hardware.gpu@1.0.so
-vendor/lib64/vendor.mediatek.hardware.keyinstall@1.0.so
 vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
 vendor/lib64/vendor.mediatek.hardware.log@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
@@ -2125,7 +2129,6 @@ vendor/lib/libtflite_mtk_static.so
 vendor/lib/libthha.so
 vendor/lib/libtlcWidevineModularDrm.so
 vendor/lib/libudf.so
-vendor/lib/liburee_meta_drmkeyinstall.so
 vendor/lib/libvc1dec_sa.ca7.so
 vendor/lib/libvcodecdrv.so
 vendor/lib/libvcodec_oal.so
@@ -2322,7 +2325,6 @@ vendor/lib64/libtflite_mtk_static.so
 vendor/lib64/libthha.so
 vendor/lib64/libtlcWidevineModularDrm.so
 vendor/lib64/libudf.so
-vendor/lib64/liburee_meta_drmkeyinstall.so
 vendor/lib64/libvcodec_oal.so
 vendor/lib64/libverno.so
 vendor/lib64/libvia-ril.so
