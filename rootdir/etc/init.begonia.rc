@@ -1,0 +1,12 @@
+# MTK platform .rc configure
+
+on post-fs-data
+    mkdir /data/vendor/nfc 0770 nfc nfc
+    mkdir /data/vendor/secure_element 0770 nfc nfc
+    mkdir /data/nfc_socket 0771 nfc radio
+
+#NFC
+    chmod 0660 /dev/nq-nci
+    chown nfc nfc /dev/nq-nci
+    chmod 0660 /dev/p73
+    chown nfc nfc /dev/p73
