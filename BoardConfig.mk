@@ -21,8 +21,7 @@ DEVICE_PATH := device/xiaomi/begonia
 -include device/xiaomi/mt6785-common/BoardConfigCommon.mk
 
 # Hidl
-ODM_MANIFEST_SKUS += begonia
-ODM_MANIFEST_BEGONIA_FILES := $(DEVICE_PATH)/manifest_begonia.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest_begonia.xml
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/begonia/BoardConfigVendor.mk
